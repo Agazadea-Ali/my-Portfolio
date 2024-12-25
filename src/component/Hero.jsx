@@ -39,7 +39,7 @@ const Hero = () => {
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1. }}
+              transition={{ duration: 1, delay: 0.3 }}
               width={450}
               height={450}
               className=' w-10/12 md:w-1/2 lg:w-8/12 rounded-2xl' src={profilePic} alt="Ali Aghazade" />
